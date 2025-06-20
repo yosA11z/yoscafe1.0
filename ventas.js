@@ -366,8 +366,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const result = await stripe.redirectToCheckout({
                 lineItems: lineItemsForStripe,
                 mode: "payment",
-                successUrl: "https://newyoscafe.vercel.app/pasareladepago/success.html",
-                cancelUrl: "https://newyoscafe.vercel.app/pasareladepago/cancel.html"
+                successUrl: "https://yoscafe.vercel.app/pasareladepago/success.html",
+                cancelUrl: "https://yoscafe.vercel.app/pasareladepago/cancel.html"
             });
 
             if (result.error) {
