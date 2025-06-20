@@ -37,11 +37,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const products = {
         classic: {
             name: "Café Yoscafé Clásico",
-            price: 25000, // Precio en COP
+            price: 25000, 
             id: 'classic',
             stripePriceId: 'price_1RaTIdRHhRRFfUmq2K9VWTDy',
             keywords: "clásico, tradicional, medio, suave, chocolate, frutos secos, tostado",
-            image: "Yoscafe.png", // Ruta de la imagen para la vista de detalle
+            image: "Yoscafe.png", 
             description: "Nuestro blend tradicional, de tueste medio, con notas suaves a chocolate y frutos secos. Ideal para disfrutar en cualquier momento del día, ofreciendo una experiencia equilibrada y reconfortante."
         },
         premium: {
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 'premium',
             stripePriceId: 'price_1RaTJQRHhRRFfUmqKDrV6jrN',
             keywords: "premium, selección, especial, fuerte, intenso, frutal, acidez, floral, exótico",
-            image: "Yoscafe_bolsa.png", // Ruta de la imagen para la vista de detalle
+            image: "Yoscafe_bolsa.png", 
             description: "Una selección especial de granos, con un tueste intenso que resalta sus notas frutales y una acidez vibrante. Un café para los paladares más exigentes."
         },
         decaf: {
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 'decaf',
             stripePriceId: 'price_1RaTKDRHhRRFfUmqEkTuqSUm',
             keywords: "descafeinado, suave, sin cafeína, noche, ligero, tranquilo",
-            image: "Yoscafe_tarro.png", // Ruta de la imagen para la vista de detalle
+            image: "Yoscafe_tarro.png", 
             description: "Disfruta del auténtico sabor del café sin cafeína. Nuestro descafeinado conserva el cuerpo y aroma, perfecto para tus noches o momentos de tranquilidad."
         }
     };
